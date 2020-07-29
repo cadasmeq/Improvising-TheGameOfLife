@@ -3,13 +3,15 @@ import matplotlib.pyplot as plt
 
 debug = 1
 epochs = 5
-width, height = 100, 100
+width, height = 30, 30
 board = np.zeros([height, width])
 
 # Player Cell
-board[50:55, 48:52] = 1
-board[49:53, 49] = 1
-board[43:55, 48:50] = 1
+board[21, 21] = 1
+board[22, 22] = 1
+board[22, 23] = 1
+board[21, 23] = 1
+board[20, 23] = 1
 plt.ion()
 
 while 1:
@@ -18,7 +20,7 @@ while 1:
      
         plt.imshow(board)
         plt.show()
-        plt.pause(0.00001)
+        plt.pause(0.1)
         
 
     newBoard = np.copy(board)        
