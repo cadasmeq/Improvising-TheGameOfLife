@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-debug = 1
 epochs = 5
 width, height = 30, 30
 board = np.zeros([height, width])
@@ -16,12 +15,9 @@ plt.ion()
 
 while 1:
 
-    if debug == 1:
-     
-        plt.imshow(board)
-        plt.show()
-        plt.pause(0.1)
-        
+    plt.imshow(board)
+    plt.show()
+    plt.pause(0.1) 
 
     newBoard = np.copy(board)        
 
