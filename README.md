@@ -1,8 +1,16 @@
-# The Game of Life (Python)
-Improvising Code of The Game of Life just understanding the theory behind this. Currently working using ```Numpy``` matrix as grid and ```Matplotlib.pyplot``` to display it.
+# The Game Of Life (Python)
+Basic implementation from scratch of the game of life using matplotlib as visualizer. (In honor of John Horton Conway)
 
-# #ToDo:
-- Export code to ```Pygame``` for real time play.
+# # Starting 🚀 
+### What contains this Repo?
+A very basic code which allows you to test all rules of The Game of Life. 
 
+### Observations! 👀
+This is a very basic implementation, but to test deeply or in best interactive way, is required an best implementation using a dynamic framework like Pygames.
 
+# # Pre-requisites 📋
+All requeriments are listed in 
 
+# # TODO (Long-Term):
+ - Dynamic implementation using Pygames for real time testing.
+ 
